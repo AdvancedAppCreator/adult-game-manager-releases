@@ -5,6 +5,11 @@ last_updated: 2026-05-29
 
 # Changelog
 
+## v0.2.13
+
+- In-app Documentation now opens the working GitHub help landing page while GitHub Pages is pending repository enablement.
+- Expanded Adult Game Manager help from a starter README into a full MkDocs help tree covering permissions, matching, catalog sync, installs, backups, diagnostics, self-update, support, and FAQ.
+
 ## v0.2.11
 
 - Public help site created for Adult Game Manager.
@@ -15,4 +20,3 @@ last_updated: 2026-05-29
 
 - Adult Game Manager moved app/catalog/update assets to the public `adult-game-manager-releases` repository.
 - Runtime config supports catalog URLs, multiple update feeds, support/issues/donation links, and optional diagnostics upload.
-

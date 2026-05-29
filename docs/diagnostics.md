@@ -30,3 +30,4 @@ When diagnostics are enabled in `app_config.json`, more actions may appear:
 
 Diagnostics upload is explicit. The app does not upload logs or screenshots automatically, and the upload menu only appears when upload settings are configured.
 
+The canonical diagnostics page is now [Diagnostics and logs](diagnostics/logs.md).

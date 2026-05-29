@@ -1,26 +1,102 @@
-site_name: Adult Game Manager
+site_name: Adult Game Manager Help
+site_description: Help guide for the Adult Game Manager Android companion for installed APKs, JoiPlay games, and multi-source adult game catalogs.
 site_url: https://advancedappcreator.github.io/adult-game-manager-releases/
 repo_url: https://github.com/AdvancedAppCreator/adult-game-manager-releases
+repo_name: AdvancedAppCreator/adult-game-manager-releases
+copyright: Help for the Adult Game Manager Android app
 theme:
   name: material
   features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
 nav:
   - Home: index.md
   - Getting started: getting-started.md
-  - Main screen: main-screen.md
-  - Catalog: catalog.md
-  - JoiPlay: joiplay.md
-  - Backup and config: backup-config.md
-  - Diagnostics: diagnostics.md
-  - Changelog: changelog.md
+  - Permissions: permissions.md
+  - Main screen tour: main-screen.md
+  - Matching games:
+      - Auto-match: mapping/auto-match.md
+      - Manual search: mapping/manual-search.md
+      - Paste a page URL: mapping/paste-url.md
+      - Mark not in catalog: mapping/not-in-catalog.md
+      - Change a wrong match: mapping/change-match.md
+  - Catalog:
+      - Catalog overview: catalog.md
+      - Sources and sync: catalog/sync.md
+      - Refresh installed games: catalog/refresh.md
+      - Browse and filter: catalog/browse-filter.md
+      - Review unmapped games: catalog/review-unmapped.md
+      - Auto-hide non-games: catalog/auto-hide.md
+  - JoiPlay and APK installs:
+      - JoiPlay overview: joiplay.md
+      - Install APK: installs/install-apk.md
+      - Install game in JoiPlay: joiplay/install-game.md
+      - JoiPlay settings: joiplay/settings.md
+      - Import .joiback backup: joiplay/import-backup.md
+      - Delete a JoiPlay game: joiplay/delete-game.md
+      - Probably unused folders: joiplay/unused-folders.md
+  - Backup and config:
+      - Overview: backup-config.md
+      - Export and import backup: backup/export-import.md
+      - Auto-backups: backup/auto-backup.md
+      - App config: backup/app-config.md
+  - Diagnostics and logs: diagnostics/logs.md
+  - Self-update: self-update.md
   - Support: support.md
+  - Troubleshooting / FAQ: faq.md
+  - Changelog: changelog.md
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
+  - md_in_html
   - tables
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AdvancedAppCreator/adult-game-manager-releases

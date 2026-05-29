@@ -27,3 +27,10 @@ Common actions include:
 
 Use the search field and filter chips to narrow the list. Catalog tag filters use `tag:` terms, such as `tag:renpy` or multiple tags in the same query.
 
+## Status and update state
+
+Each row represents a local APK or imported JoiPlay game. Matched games can show a known catalog version, installed version, source page link, and update state. Unmatched games can be matched manually, reviewed later, or marked as not in the catalog.
+
+## Multi-select
+
+Long-press or use the selection controls when available to apply supported actions to multiple rows. Use this carefully for actions that can change mapping or visibility state.
