@@ -1,0 +1,26 @@
+site_name: Adult Game Manager
+site_url: https://advancedappcreator.github.io/adult-game-manager-releases/
+repo_url: https://github.com/AdvancedAppCreator/adult-game-manager-releases
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Main screen: main-screen.md
+  - Catalog: catalog.md
+  - JoiPlay: joiplay.md
+  - Backup and config: backup-config.md
+  - Diagnostics: diagnostics.md
+  - Changelog: changelog.md
+  - Support: support.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
