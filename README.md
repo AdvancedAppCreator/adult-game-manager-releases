@@ -7,7 +7,7 @@ It keeps a searchable catalog, matches local apps and imported JoiPlay games to 
 ## Download
 
 - **Latest APK:** https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-latest-release.apk
-- **Help site:** https://advancedappcreator.github.io/adult-game-manager-releases/
+- **Help/docs:** https://github.com/AdvancedAppCreator/adult-game-manager-releases#readme
 - **Issues/support:** https://github.com/AdvancedAppCreator/adult-game-manager-releases/issues
 - **Support thread:** https://f95zone.to/threads/299985/
 
@@ -40,4 +40,4 @@ Adult Game Manager is local-first. Your installed app list, mappings, personal n
 
 Open an issue with your app version, Android version/device model, what you tapped, what happened, and diagnostics/screenshots if available.
 
-See the help page for diagnostics: https://advancedappcreator.github.io/adult-game-manager-releases/diagnostics/
+See the diagnostics help page: https://github.com/AdvancedAppCreator/adult-game-manager-releases/blob/main/docs/diagnostics.md
