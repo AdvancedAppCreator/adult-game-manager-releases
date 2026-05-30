@@ -5,6 +5,14 @@ last_updated: 2026-05-29
 
 # Changelog
 
+## v1.0
+
+- Public launch release of Adult Game Manager.
+- In-app Documentation opens the live Adult Game Manager help site.
+- Public GitHub update feed and latest APK assets are live.
+- Multi-source catalog support is enabled for F95Zone and AdultGameWorld.
+- The public F95Zone thread is now the main support/discussion thread.
+
 ## v0.2.13
 
 - In-app Documentation now opens the working GitHub help landing page while GitHub Pages is pending repository enablement.

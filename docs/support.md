@@ -10,7 +10,7 @@ Use GitHub Issues for bugs and feature requests.
 ## Links
 
 - [GitHub Issues](https://github.com/AdvancedAppCreator/adult-game-manager-releases/issues)
-- [Support thread](https://f95zone.to/threads/299985/)
+- [Support thread](https://f95zone.to/threads/300548/)
 - [Latest APK](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-latest-release.apk)
 
 ## What to include
@@ -20,4 +20,3 @@ Use GitHub Issues for bugs and feature requests.
 3. What you tapped.
 4. What happened instead.
 5. Saved or uploaded diagnostics when available.
-

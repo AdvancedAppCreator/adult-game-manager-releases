@@ -7,13 +7,13 @@ It keeps a searchable catalog, matches local apps and imported JoiPlay games to 
 ## Download
 
 - **Latest APK:** https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-latest-release.apk
-- **Help/docs:** https://github.com/AdvancedAppCreator/adult-game-manager-releases#readme
+- **Help/docs:** https://advancedappcreator.github.io/adult-game-manager-releases/
 - **Issues/support:** https://github.com/AdvancedAppCreator/adult-game-manager-releases/issues
-- **Support thread:** https://f95zone.to/threads/299985/
+- **Support thread:** https://f95zone.to/threads/300548/
 
 ## Help topics
 
-The full help site source is in `docs/`. Until GitHub Pages is enabled for this repository, use these GitHub links:
+The full help site is live at https://advancedappcreator.github.io/adult-game-manager-releases/. Source pages are in `docs/`:
 
 | Topic | Link |
 | --- | --- |
