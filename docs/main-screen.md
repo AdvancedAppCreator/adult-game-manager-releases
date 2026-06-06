@@ -1,6 +1,6 @@
 ---
 title: Main screen
-last_updated: 2026-05-29
+last_updated: 2026-06-06
 ---
 
 # Main screen
@@ -34,3 +34,16 @@ Each row represents a local APK or imported JoiPlay game. Matched games can show
 ## Multi-select
 
 Long-press or use the selection controls when available to apply supported actions to multiple rows. Use this carefully for actions that can change mapping or visibility state.
+
+## Landscape dialogs
+
+AGM adapts larger workflow dialogs for landscape screens. When there is a natural split, the app shows controls and lists side-by-side instead of stacking everything vertically.
+
+Examples include:
+
+- Ren'Py and RPGM save editors.
+- Save compare dialogs.
+- File and folder pickers.
+- Save-location reports and association pickers.
+- JoiPlay settings and extracted-file browsers.
+- Catalog entry details with cover art beside metadata.

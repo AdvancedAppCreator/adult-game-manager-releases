@@ -1,6 +1,6 @@
 ---
 title: JoiPlay settings
-last_updated: 2026-05-29
+last_updated: 2026-06-06
 ---
 
 # JoiPlay settings
@@ -19,6 +19,8 @@ Menu -> **JoiPlay ... -> JoiPlay settings**.
 - Import behavior for `.joiback` backups.
 - Install/update behavior for local archives.
 - Safety options used before replacing folders.
+
+On landscape screens, source and destination folder settings are shown side-by-side so it is easier to compare the selected folders.
 
 ## Tips
 
