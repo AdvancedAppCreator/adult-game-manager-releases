@@ -5,6 +5,12 @@ last_updated: 2026-06-06
 
 # Changelog
 
+## v1.0.42
+
+- Fixed an RPGM save-edit crash/OOM on large saves.
+- RPGM write verification now reads only the edited value path instead of flattening the full save tree.
+- Backup, re-encode, re-read, and value verification safety checks remain in place.
+
 ## v1.0.39
 
 - Improved landscape dialogs across Adult Game Manager.
