@@ -5,10 +5,11 @@ last_updated: 2026-06-06
 
 # Changelog
 
-## v1.0.38
+## v1.0.39
 
 - Improved landscape dialogs across Adult Game Manager.
 - Save editors, compare views, file/folder pickers, save-location reports, association pickers, JoiPlay settings/browser, and catalog details now use side-by-side layouts where appropriate.
+- Fixed the in-app support link so About/Share opens the public F95Zone thread.
 - This release is especially useful on tablets, foldables, Samsung DeX, and phones used in landscape orientation.
 
 ## v1.0
