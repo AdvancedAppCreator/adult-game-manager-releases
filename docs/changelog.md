@@ -5,6 +5,18 @@ last_updated: 2026-06-06
 
 # Changelog
 
+## v1.0.44
+
+- Public-readiness fixes from code audit.
+- RPGM save inspection is capped for large saves and shows a warning instead of trying to flatten unlimited values.
+- RPGM save writes now use temp-file verification before replacing the live save.
+- RPGM backups can be restored in-app.
+- Support links ignore legacy F95 Updater thread overrides.
+- JoiPlay summaries and sorting use scanned total sizes consistently.
+- Android-only size sorts are hidden unless the Android source filter is active.
+- Backup export is renamed for Adult Game Manager.
+- Ren'Py large integer edits are supported.
+
 ## v1.0.42
 
 - Fixed an RPGM save-edit crash/OOM on large saves.
