@@ -1,9 +1,15 @@
 ---
 title: Changelog
-last_updated: 2026-06-06
+last_updated: 2026-06-10
 ---
 
 # Changelog
+
+## v1.0.50
+
+- Open folder now uses Android's native implicit folder-view/default-app flow.
+- The folder action no longer forces a specific file manager package.
+- If no file manager can open folders, AGM shows a message instead of opening the Android "Use this folder" permission picker.
 
 ## v1.0.48
 
