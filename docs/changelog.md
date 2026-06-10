@@ -5,6 +5,17 @@ last_updated: 2026-06-06
 
 # Changelog
 
+## v1.0.48
+
+- UI and cleanup release.
+- Tapping a game row now opens the grouped Game actions menu.
+- The top list summary moved behind an info icon popup to keep the title bar cleaner.
+- Main menu labels and save-tool grouping were clarified.
+- Android receiver registration lint was fixed.
+- Launcher monochrome icon metadata was added.
+- Minor stale storage comments/checks were cleaned up.
+- SDK target remains unchanged.
+
 ## v1.0.44
 
 - Public-readiness fixes from code audit.
