@@ -1,9 +1,17 @@
 ---
 title: Changelog
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
 
 # Changelog
+
+## v1.0.51
+
+- Trust/transparency release.
+- Public source ZIP is attached to the GitHub release.
+- Added Apache-2.0 project licensing, privacy/permissions notes, third-party notices, checksums, and a GitHub Actions build workflow.
+- Public defaults no longer include developer donation/payment links.
+- Release signing material and private config are excluded from source.
 
 ## v1.0.50
 
