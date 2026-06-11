@@ -16,6 +16,7 @@ Adult Game Manager is designed to be local-first and verifiable.
 | APK SHA-256 | `36868D35B2B60CA53F0F74D5243A6523D7E9043727509A5E4A93496545AEF58A` |
 | Source ZIP | [AdultGameManager-1.0.51-source.zip](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-1.0.51-source.zip) |
 | Source ZIP SHA-256 | `C4265FC47ABDE276BBA53E0D4E31E7E43EBF955DDED922D9B0F2B097F69AD102` |
+| Source repository | [AdvancedAppCreator/adult-game-manager](https://github.com/AdvancedAppCreator/adult-game-manager) |
 | Version metadata | [version.json](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/version.json) |
 
 VirusTotal hash lookup for the APK, if/when submitted:
@@ -24,7 +25,7 @@ VirusTotal hash lookup for the APK, if/when submitted:
 
 ## Source and license
 
-The public source ZIP includes:
+The public source repository and source ZIP include:
 
 - Apache-2.0 project license,
 - privacy and permissions notes,
