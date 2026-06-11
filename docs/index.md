@@ -9,7 +9,7 @@ Adult Game Manager is a local-first Android companion for tracking adult game up
 
 [Download latest APK](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-latest-release.apk){ .md-button .md-button--primary }
 [Report an issue](https://github.com/AdvancedAppCreator/adult-game-manager-releases/issues){ .md-button }
-[Verify releases](trust.md){ .md-button }
+[Verify releases](verification.md){ .md-button }
 
 ![Main screen](screenshots/main-screen.png)
 
@@ -32,7 +32,7 @@ Adult Game Manager is a local-first Android companion for tracking adult game up
 - [Matching games](mapping/auto-match.md) explains how installed games connect to catalog entries.
 - [JoiPlay](joiplay.md) covers local JoiPlay imports and install helpers.
 - [Diagnostics](diagnostics/logs.md) explains logs, local saves, and optional upload.
-- [Trust and verification](trust.md) lists source, checksums, and privacy notes.
+- [Trust and verification](verification.md) lists source, checksums, and privacy notes.
 
 ## Privacy basics
 

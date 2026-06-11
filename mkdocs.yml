@@ -69,7 +69,7 @@ nav:
       - App config: backup/app-config.md
   - Diagnostics and logs: diagnostics/logs.md
   - Self-update: self-update.md
-  - Trust and verification: trust.md
+  - Trust and verification: verification.md
   - Support: support.md
   - Troubleshooting / FAQ: faq.md
   - Changelog: changelog.md
