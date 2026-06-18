@@ -17,7 +17,7 @@ The app reads configured `version.json` feeds, compares the latest version/code 
 
 ## Current public feed
 
-Public releases are hosted from the `AdvancedAppCreator/adult-game-manager-releases` GitHub release assets. Existing transition builds may also read an Azure bridge feed so older installs can migrate.
+Public releases are hosted from the `AdvancedAppCreator/adult-game-manager-releases` GitHub release assets.
 
 ## If it says no version configured
 

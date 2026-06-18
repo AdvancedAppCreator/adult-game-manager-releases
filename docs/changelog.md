@@ -1,9 +1,17 @@
 ---
 title: Changelog
-last_updated: 2026-06-11
+last_updated: 2026-06-18
 ---
 
 # Changelog
+
+## v1.0.58
+
+- Save editor update.
+- Ren'Py and RPGM save editor filters now include a **Whole word** option, so searches like `1` do not also match `10` or `11`.
+- Ren'Py and RPGM save edits can optionally overwrite a matching same-name save in a nearby `sync` folder, with a backup made before replacing the sync copy.
+- JoiPlay upgrades now record the source archive/version marker, helping AGM avoid stale folder-name version detection after upgrade-in-place flows.
+- JoiPlay matching uses additional internal metadata when available, including Ren'Py `build_info`/options and RPGM/HTML titles.
 
 ## v1.0.51
 
