@@ -422,7 +422,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../trust/" class="md-tabs__link">
+      <a href="../verification/" class="md-tabs__link">
         
   
   
@@ -1560,7 +1560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trust/" class="md-nav__link">
+      <a href="../verification/" class="md-nav__link">
         
   
   
@@ -1699,6 +1699,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v1058" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.0.58
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#v1051" class="md-nav__link">
@@ -1845,6 +1856,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#v1058" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.0.58
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#v1051" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1975,6 +1997,14 @@
 
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
+<h2 id="v1058">v1.0.58<a class="headerlink" href="#v1058" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Save editor update.</li>
+<li>Ren'Py and RPGM save editor filters now include a <strong>Whole word</strong> option, so searches like <code>1</code> do not also match <code>10</code> or <code>11</code>.</li>
+<li>Ren'Py and RPGM save edits can optionally overwrite a matching same-name save in a nearby <code>sync</code> folder, with a backup made before replacing the sync copy.</li>
+<li>JoiPlay upgrades now record the source archive/version marker, helping AGM avoid stale folder-name version detection after upgrade-in-place flows.</li>
+<li>JoiPlay matching uses additional internal metadata when available, including Ren'Py <code>build_info</code>/options and RPGM/HTML titles.</li>
+</ul>
 <h2 id="v1051">v1.0.51<a class="headerlink" href="#v1051" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Trust/transparency release.</li>
