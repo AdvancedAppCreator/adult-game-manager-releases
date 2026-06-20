@@ -1,9 +1,16 @@
 ---
 title: Changelog
-last_updated: 2026-06-18
+last_updated: 2026-06-20
 ---
 
 # Changelog
+
+## v1.0.62
+
+- Android 10 storage permission fix: AGM now requests legacy external-storage permissions on Android 10 and below instead of assuming All files access exists.
+- Added a persistent installed-library view type toggle in the main menu.
+- Card view now uses the cover-first card layout while opening the same full action popup menu as list view.
+- Card/list preference is saved across app restarts.
 
 ## v1.0.58
 
