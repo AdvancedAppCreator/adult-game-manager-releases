@@ -1,9 +1,17 @@
 ---
 title: Changelog
-last_updated: 2026-06-20
+last_updated: 2026-06-22
 ---
 
 # Changelog
+
+## v1.0.83
+
+- Added manual installed-date controls for installed games.
+- Installed dates can be set from the catalog/thread date when available, set with the native Android date picker, or cleared.
+- Installed-date overrides expire when the installed evidence fingerprint changes, so a replaced game does not keep a stale manual date.
+- Reorganized the game action menu so Launch, Open thread/source, Refresh/check update, Match/notes/status, and Edit are top-level actions.
+- Multi-action groups now use clearer side submenus with separated panel styling.
 
 ## v1.0.62
 
