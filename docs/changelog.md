@@ -1,9 +1,19 @@
 ---
 title: Changelog
-last_updated: 2026-06-22
+last_updated: 2026-06-25
 ---
 
 # Changelog
+
+## v1.0.91
+
+- Catalog tag labels are now complete for the current F95 catalog; numeric tag/prefix IDs are resolved before publishing `labels.json`.
+- Catalog rows hide any unresolved numeric IDs instead of showing raw numbers.
+- Added a searchable **Tags** dropdown to the Catalog tab; it lists only tags/prefixes present in loaded catalog entries.
+- Catalog **Source** and **Platform** filters are now dropdowns instead of long chip rows.
+- Installed-library filters for **Manually matched**, **Thread updated after install**, and **Has saves** are grouped under one Filters dropdown.
+- Fixed a Tags dropdown crash caused by putting a lazy list inside a Compose popup.
+- Restored fast catalog tag filtering with a cached search index and debounced query updates.
 
 ## v1.0.83
 

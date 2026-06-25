@@ -1,6 +1,6 @@
 ---
 title: Trust and verification
-last_updated: 2026-06-22
+last_updated: 2026-06-25
 ---
 
 # Trust and verification
@@ -11,17 +11,17 @@ Adult Game Manager is designed to be local-first and verifiable.
 
 | Item | Value |
 | --- | --- |
-| Version | v1.0.83 |
-| APK | [AdultGameManager-1.0.83-release.apk](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-1.0.83-release.apk) |
-| APK SHA-256 | `5A5CACACDA5B8641336D6CA70FD26A209E6F01B663B5125A664BB88F01BA9EA5` |
-| Source ZIP | [AdultGameManager-1.0.83-source.zip](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-1.0.83-source.zip) |
-| Source ZIP SHA-256 | `3171A64B1B170889A057050AE1C1037CD3F30F3AB917AECA8C45473F637E9FDC` |
+| Version | v1.0.91 |
+| APK | [AdultGameManager-1.0.91-release.apk](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-1.0.91-release.apk) |
+| APK SHA-256 | `BC07F768C397A6FC8A1CDA363844F878C6CAEDACB6308C36A82E311C7681A7E6` |
+| Source ZIP | [AdultGameManager-1.0.91-source.zip](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-1.0.91-source.zip) |
+| Source ZIP SHA-256 | `FDA578C6517D199DB12199D111C8005A1A94BB1330247E7A86C4216FCF38A0BE` |
 | Source repository | [AdvancedAppCreator/adult-game-manager](https://github.com/AdvancedAppCreator/adult-game-manager) |
 | Version metadata | [version.json](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/version.json) |
 
 VirusTotal hash lookup for the APK, if/when submitted:
 
-`https://www.virustotal.com/gui/file/5A5CACACDA5B8641336D6CA70FD26A209E6F01B663B5125A664BB88F01BA9EA5`
+`https://www.virustotal.com/gui/file/BC07F768C397A6FC8A1CDA363844F878C6CAEDACB6308C36A82E311C7681A7E6`
 
 ## Source and license
 
