@@ -1,9 +1,32 @@
 ---
 title: Changelog
-last_updated: 2026-06-25
+last_updated: 2026-06-30
 ---
 
 # Changelog
+
+## v1.1.4
+
+- JoiPlay cleanup review ("Probably unused folders") now scans the entire folder tree under the selected root and reports the highest-level folders whose contents are not referenced by any JoiPlay game, instead of only folders sitting next to known games.
+- Folders with no games anywhere in their subtree — for example a stray `Swf` folder, even when nested a few levels deep — are now listed.
+- Each JoiPlay game folder is treated as an in-use leaf, so files inside a game are never flagged.
+
+## v1.1.3
+
+- Save editor: the Ren'Py editor now reaches values nested inside plugin/character objects (for example CharacterQuestManager character stats), not just top-level `store.*` scalars.
+- You can edit stats like relationship/corruption directly, and list items show a name hint. Patched values are re-signed with the save's security key so the game accepts them.
+
+## v1.1.2
+
+- Fixed installing a JoiPlay game failing with "path not found". Extracted games are now passed to JoiPlay by their real folder path, so they import and launch correctly.
+
+## v1.1.1
+
+- Catalog tag labels now sync independently of the legacy catalog, so labels stay complete even when the legacy catalog is frozen.
+
+## v1.1.0
+
+- Catalog v2: data-driven sources, namespaced tag labels, and off-thread catalog search for a faster, more responsive Catalog tab.
 
 ## v1.0.91
 
