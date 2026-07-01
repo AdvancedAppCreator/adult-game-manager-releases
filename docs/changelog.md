@@ -1,9 +1,15 @@
 ---
 title: Changelog
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # Changelog
+
+## v1.1.5
+
+- Catalog "Installed" badge now reflects your actual games list: a catalog entry is marked Installed only when its mapped game is currently installed.
+- Previously the badge (and the Installed / Not-installed filters) were derived from every saved mapping, so a game you had uninstalled — or a JoiPlay game you had deleted — could still appear as Installed.
+- Stale mappings for games that are no longer installed are now cleaned up automatically. Mappings that carry your ratings, notes, status or manual matches are preserved, and the cleanup is guarded so a denied permission or an unloaded JoiPlay backup can't remove good mappings.
 
 ## v1.1.4
 
