@@ -1,9 +1,30 @@
 ---
 title: Changelog
-last_updated: 2026-07-01
+last_updated: 2026-07-05
 ---
 
 # Changelog
+
+## v1.1.9
+
+- Save editor: added **Mass replace** to the Ren'Py and RPGM editors. Filter the value/variable list to the ones you want, then tap **Mass replace** to set them all to a single new value at once.
+- The change is staged so you can review it before tapping Save, and a backup is created before writing — the same safety as single edits.
+- Note: values whose type can't accept the input will fail on save, so filter to one type first when needed.
+
+## v1.1.8
+
+- JoiPlay backup actions are more responsive: **Revert to backup** and **Delete backup** now appear instantly (no wait to measure size), and progress is shown while reverting or deleting.
+- JoiPlay games that have a post-update backup now show a **Backup** badge on their card.
+- Added a **Has backup (JoiPlay)** filter to the Filters dropdown.
+
+## v1.1.7
+
+- JoiPlay post-update backups: after updating a JoiPlay game you can now **Revert to backup** or **Delete backup** from the game's Storage & saves menu.
+- Revert is done safely — the current data is set aside first, so an interrupted revert never loses your saves.
+
+## v1.1.6
+
+- Fixed JoiPlay Ren'Py runtime selection to mirror JoiPlay's own algorithm, so games launch with the correct runtime.
 
 ## v1.1.5
 
