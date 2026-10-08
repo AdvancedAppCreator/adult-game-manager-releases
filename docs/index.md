@@ -12,6 +12,10 @@ companion, installer, and save toolkit for installed APKs and extracted games.
 [Report an issue](https://github.com/AdvancedAppCreator/adult-game-manager-releases/issues){ .md-button }
 [Verify releases](verification.md){ .md-button }
 
+## 40-second overview
+
+[![Adult Game Manager overview](media/adult-game-manager-demo.gif)](media/adult-game-manager-demo.mp4)
+
 ![Main screen](screenshots/main-screen.png)
 
 ## What it does

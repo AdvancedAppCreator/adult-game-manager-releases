@@ -18,6 +18,13 @@ hosts, or include analytics.
 - **Support thread:** https://f95zone.to/threads/300548/
 - **Source:** https://github.com/AdvancedAppCreator/adult-game-manager
 
+## 40-second overview
+
+[![Adult Game Manager overview](docs/media/adult-game-manager-demo.gif)](docs/media/adult-game-manager-demo.mp4)
+
+The overview uses a clean emulator and product-only cards. It contains no
+personal library or account data.
+
 ## Help topics
 
 The full help site is live at https://advancedappcreator.github.io/adult-game-manager-releases/. Source pages are in `docs/`:
