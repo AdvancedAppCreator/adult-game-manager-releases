@@ -1,18 +1,23 @@
 ---
 title: Getting started
-last_updated: 2026-05-29
+last_updated: 2026-10-08
 ---
 
 # Getting started
 
-Install Adult Game Manager from GitHub Releases, open it, and let it scan your installed APKs and optional JoiPlay games.
+Install Adult Game Manager from GitHub Releases, open it, and let it scan your
+installed APKs and supported extracted games.
 
 ## Install
 
-1. Download the latest APK from [GitHub Releases](https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-latest-release.apk).
-2. Open the APK on your Android device.
-3. Approve Android's install-from-browser or install-from-files prompt if needed.
-4. Open Adult Game Manager.
+1. Open the [latest signed GitHub release](https://github.com/AdvancedAppCreator/adult-game-manager/releases/latest).
+2. Download the `.apk` asset.
+3. Open the APK on your Android device.
+4. Approve Android's install-from-browser or install-from-files prompt if needed.
+5. Open Adult Game Manager.
+
+For automatic release checks through a separate open-source updater, see
+[Install with Obtainium](install-obtainium.md).
 
 ## First run
 
@@ -23,7 +28,7 @@ On first launch, the app scans installed apps and loads the default catalog/upda
 1. Tap **Refresh from catalog** to update matches.
 2. Use the search box to filter your installed games.
 3. Open the **Catalog** tab to search all known catalog entries.
-4. Open **Menu -> JoiPlay ... -> JoiPlay settings** if you use JoiPlay games.
+4. Review [launcher setup](launcher-setup.md) if you use JoiPlay, Winlator, or Kirikiroid2.
 5. Open **Menu -> Help ... -> About** for quick tips and links.
 
 ## If you used F95 Updater

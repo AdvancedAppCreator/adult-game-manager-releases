@@ -1,15 +1,29 @@
 # Adult Game Manager
 
-**Adult Game Manager** is a local-first Android companion for tracking adult game updates across installed APKs and JoiPlay games.
+**Adult Game Manager (AGM)** is a local-first Android game library, update
+tracker, launcher companion, installer, and save toolkit.
 
-It keeps a searchable catalog, matches local apps and imported JoiPlay games to game pages, compares installed versions with the latest known versions, and opens the right page when an update is available.
+It keeps installed Android APKs and AGM-managed extracted games in one
+searchable library, matches them to public catalog entries, compares versions,
+and launches compatible games through JoiPlay, Winlator, or Kirikiroid2.
+
+AGM does not require a site login, download games automatically, bypass file
+hosts, or include analytics.
 
 ## Download
 
-- **Latest APK:** https://github.com/AdvancedAppCreator/adult-game-manager-releases/releases/download/app/AdultGameManager-latest-release.apk
+- **Latest signed release:** https://github.com/AdvancedAppCreator/adult-game-manager/releases/latest
 - **Help/docs:** https://advancedappcreator.github.io/adult-game-manager-releases/
 - **Issues/support:** https://github.com/AdvancedAppCreator/adult-game-manager-releases/issues
 - **Support thread:** https://f95zone.to/threads/300548/
+- **Source:** https://github.com/AdvancedAppCreator/adult-game-manager
+
+## 40-second overview
+
+[![Adult Game Manager overview](docs/media/adult-game-manager-demo.gif)](docs/media/adult-game-manager-demo.mp4)
+
+The overview uses a clean emulator and product-only cards. It contains no
+personal library or account data.
 
 ## Help topics
 
@@ -22,7 +36,10 @@ The full help site is live at https://advancedappcreator.github.io/adult-game-ma
 | Main screen tour | [docs/main-screen.md](docs/main-screen.md) |
 | Matching games | [Auto-match](docs/mapping/auto-match.md), [manual search](docs/mapping/manual-search.md), [paste URL](docs/mapping/paste-url.md), [change match](docs/mapping/change-match.md) |
 | Catalog | [Overview](docs/catalog.md), [sync](docs/catalog/sync.md), [browse/filter](docs/catalog/browse-filter.md), [review unmapped](docs/catalog/review-unmapped.md) |
-| JoiPlay and installs | [Overview](docs/joiplay.md), [APK install](docs/installs/install-apk.md), [JoiPlay install](docs/joiplay/install-game.md), [settings](docs/joiplay/settings.md) |
+| Install and update AGM | [Getting started](docs/getting-started.md), [Obtainium](docs/install-obtainium.md), [self-update](docs/self-update.md) |
+| Launchers and installs | [Launcher setup](docs/launcher-setup.md), [JoiPlay](docs/joiplay.md), [APK install](docs/installs/install-apk.md) |
+| Practical guides | [Ren'Py on Android](docs/guides/renpy-android.md), [Windows games with Winlator](docs/guides/winlator-android.md), [save safety](docs/guides/save-safety.md) |
+| Why AGM? | [Feature comparison](docs/why-agm.md) |
 | Backup and config | [Overview](docs/backup-config.md), [backup import/export](docs/backup/export-import.md), [app config](docs/backup/app-config.md) |
 | Diagnostics | [docs/diagnostics/logs.md](docs/diagnostics/logs.md) |
 | Self-update | [docs/self-update.md](docs/self-update.md) |
@@ -35,7 +52,9 @@ Adult Game Manager is local-first. Your installed app list, mappings, personal n
 - No site login required.
 - No hosted account, ads, or analytics SDKs.
 - No automatic game downloader; the app opens the relevant page and you decide what to download.
-- Public APKs, version metadata, catalog assets, changelogs, and help docs are hosted from this repository.
+- Signed APKs and source archives are published through the
+  [source repository's releases](https://github.com/AdvancedAppCreator/adult-game-manager/releases).
+- Catalog assets, changelogs, and help docs are published from this repository.
 
 ## Screenshots
 
@@ -45,11 +64,13 @@ Adult Game Manager is local-first. Your installed app list, mappings, personal n
 
 ## Features
 
-- Track installed Android APKs and imported JoiPlay games in one list.
+- Track installed Android APKs and AGM-managed extracted games in one list.
+- Launch supported games through JoiPlay, Winlator, and Kirikiroid2.
 - Search/filter a catalog by title, tags, engine, status, rating, and installed state.
 - Open matched game pages from the app.
-- Install local APKs and JoiPlay archives from files you choose.
-- Import JoiPlay `.joiback` backups.
+- Install or upgrade several local APKs and game archives in one planned operation.
+- Discover and edit supported Ren'Py and RPG Maker saves with backups.
+- Analyze supported Unity texture metadata and configure compatible Winlator settings.
 - Export/import your app mapping state.
 - Capture and upload diagnostics only when you explicitly choose to do so.
 

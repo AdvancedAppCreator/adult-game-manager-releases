@@ -1,6 +1,6 @@
 ---
 title: Self-update
-last_updated: 2026-05-29
+last_updated: 2026-10-08
 ---
 
 # Self-update
@@ -17,7 +17,12 @@ The app reads configured `version.json` feeds, compares the latest version/code 
 
 ## Current public feed
 
-Public releases are hosted from the `AdvancedAppCreator/adult-game-manager-releases` GitHub release assets.
+Signed public releases are hosted from the
+[`AdvancedAppCreator/adult-game-manager`](https://github.com/AdvancedAppCreator/adult-game-manager/releases)
+GitHub release assets.
+
+You can also use [Obtainium](install-obtainium.md) to monitor the same public
+GitHub releases independently of AGM's built-in update check.
 
 ## If it says no version configured
 

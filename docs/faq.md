@@ -1,15 +1,17 @@
 ---
 title: Troubleshooting / FAQ
-last_updated: 2026-05-29
+last_updated: 2026-10-08
 ---
 
 # Troubleshooting / FAQ
 
 Common Adult Game Manager problems usually come from stale catalogs, Android file permissions, or old private config.
 
-## The app opens GitHub README instead of a polished help site
+## Where is the complete help site?
 
-That is expected until GitHub Pages is enabled for this repository. The full MkDocs help source is in `docs/`, and the README links to the same help pages.
+The published help site is at
+<https://advancedappcreator.github.io/adult-game-manager-releases/>.
+Its source is public in the `docs/` directory.
 
 ## A game is unmatched
 
@@ -34,3 +36,13 @@ Upload actions only appear when diagnostics upload is configured. You can still 
 ## Does the app download games?
 
 No. It tracks local apps/games, searches catalogs, opens source pages, and helps install local files you choose.
+
+## Does AGM replace JoiPlay, Winlator, or Kirikiroid2?
+
+No. AGM is the library and management layer. Compatible launcher/runtime apps
+still execute the games. See [launcher setup](launcher-setup.md).
+
+## Can Obtainium update AGM?
+
+Yes. Follow the [Obtainium setup](install-obtainium.md) and use the public AGM
+source repository as the app source.
