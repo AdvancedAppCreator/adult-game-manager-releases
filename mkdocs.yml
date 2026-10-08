@@ -1,5 +1,5 @@
 site_name: Adult Game Manager Help
-site_description: Help guide for the Adult Game Manager Android companion for installed APKs, JoiPlay games, and multi-source adult game catalogs.
+site_description: Help for the local-first Adult Game Manager Android library, update tracker, launcher companion, installer, and save toolkit.
 site_url: https://advancedappcreator.github.io/adult-game-manager-releases/
 repo_url: https://github.com/AdvancedAppCreator/adult-game-manager-releases
 repo_name: AdvancedAppCreator/adult-game-manager-releases
@@ -39,6 +39,9 @@ theme:
 nav:
   - Home: index.md
   - Getting started: getting-started.md
+  - Install with Obtainium: install-obtainium.md
+  - Launcher setup: launcher-setup.md
+  - Why AGM?: why-agm.md
   - Permissions: permissions.md
   - Main screen tour: main-screen.md
   - Matching games:
@@ -62,6 +65,10 @@ nav:
       - Import .joiback backup: joiplay/import-backup.md
       - Delete a JoiPlay game: joiplay/delete-game.md
       - Probably unused folders: joiplay/unused-folders.md
+  - Practical guides:
+      - Ren'Py games on Android: guides/renpy-android.md
+      - Windows games with Winlator: guides/winlator-android.md
+      - Save-file safety: guides/save-safety.md
   - Backup and config:
       - Overview: backup-config.md
       - Export and import backup: backup/export-import.md

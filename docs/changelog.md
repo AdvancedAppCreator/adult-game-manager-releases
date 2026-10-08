@@ -1,9 +1,18 @@
 ---
 title: Changelog
-last_updated: 2026-07-05
+last_updated: 2026-10-08
 ---
 
 # Changelog
+
+## Documentation - 2026-10-08
+
+- Added [Obtainium installation](install-obtainium.md), a unified
+  [launcher setup](launcher-setup.md), and a [feature comparison](why-agm.md).
+- Added practical guides for [Ren'Py on Android](guides/renpy-android.md),
+  [Windows games with Winlator](guides/winlator-android.md), and
+  [save-file safety](guides/save-safety.md).
+- Updated download, product, privacy, and support wording for AGM 2.x.
 
 ## v1.1.9
 
